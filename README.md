@@ -9,6 +9,7 @@ The attack categories in the dataset are divided into nine groups: Fuzzers, Anal
 + Generic
 + Other
 + Reconnaissance
+
 The reason being their higher data availability compared to other attack types. And the rest are grouped in the class ‘Other’. 
 
 ## Walkthrough of the repository
@@ -22,12 +23,13 @@ This directory contains the building process of the model as early as data clean
 
 ### Docer image Directory
 This directory contains the necessary code that is set to be contained into a docker container and involves the model and the APIs responsible for connecting to the database as well as CRUD functions necessary for our project.
-Database_connection : establishes a connection with the database server
-Model1 and Model2 are classes that follow the architecture of the databases 
-Predict.py contains the prediction functions.
-Ann_model.h5 and lightgbm_model.txt contain the mode configuration
-Main.py . this is the file that binds everything together and contain the necessary APIs
-ohe_service .pkl provides the OneHotEncoding service  
+
++ Database_connection : establishes a connection with the database server
++ Model1 and Model2 are classes that follow the architecture of the databases 
++ Predict.py contains the prediction functions.
++ Ann_model.h5 and lightgbm_model.txt contain the mode configuration
++ Main.py . this is the script that binds everything together and contains the necessary APIs
++ ohe_service .pkl provides the OneHotEncoding service  
 
 ### React Web App - NetGuardiaN Directory 
 This directory contains the ReactJs website that shows the analytics and findings of the project. It was developed using the Horizon UI Chakra template.

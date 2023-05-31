@@ -21,7 +21,7 @@ This directory contains the building process of the model as early as data clean
 + Lgbm-model-attack prediction notebook : This is a model that predicts whether the traffic is benign or malicious 
 + Attack type prediction notebook : This is a model that classifies the attack. 
 
-### Docer image Directory
+### Docker image Directory
 This directory contains the necessary code that is set to be contained into a docker container and involves the model and the APIs responsible for connecting to the database as well as CRUD functions necessary for our project.
 
 + Database_connection : establishes a connection with the database server
